@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2015, Freescale Semiconductor, Inc.
- * Copyright 2016-2021 NXP
+ * Copyright 2016-2022 NXP
  *
  * Redistribution and use in source and binary forms, with or without modification,
  * are permitted provided that the following conditions are met:
@@ -71,9 +71,9 @@
  * of the SRM.
  */
 /** @{ */
-#define SNVS_DRV_BTN_ON_50MS                0U      /*!< 500 msec off->on transition time */
-#define SNVS_DRV_BTN_ON_100MS               1U      /*!< 50 msec off->on transition time */
-#define SNVS_DRV_BTN_ON_500MS               2U      /*!< 100 msec off->on transition time */
+#define SNVS_DRV_BTN_ON_500MS               0U      /*!< 500 msec off->on transition time */
+#define SNVS_DRV_BTN_ON_50MS                1U      /*!< 50 msec off->on transition time */
+#define SNVS_DRV_BTN_ON_100MS               2U      /*!< 100 msec off->on transition time */
 #define SNVS_DRV_BTN_ON_0MS                 3U      /*!< 0 msec off->on transition time */
 /** @} */
 
